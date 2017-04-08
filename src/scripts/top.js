@@ -1,3 +1,8 @@
+import Masonry from 'masonry-layout';
 import { pageTitle } from './lib/utility';
 
-document.getElementById('page-title').innerHTML(pageTitle('TOP'));
+new Masonry('body', {
+  itemSelector: '.item',
+  columnWidth: 180,
+  gutter: 4
+});
