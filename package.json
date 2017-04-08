@@ -39,6 +39,7 @@
     "eslint-plugin-import": "^2.2.0",
     "flow-bin": "^0.42.0",
     "flowtype": "^2.0.0",
+    "masonry-layout": "^4.1.1",
     "minireset.css": "^0.0.2",
     "nyc": "^10.1.2",
     "postcss": "^5.2.16",
